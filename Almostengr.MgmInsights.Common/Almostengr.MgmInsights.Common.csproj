@@ -7,14 +7,13 @@
     <PackageId>Almostengr.MgmInsights.Common</PackageId>
     <Company>Robinson Handy and Technology Services LLC</Company>
     <Copyright>Copyright © $([System.DateTime]::UtcNow.ToString(yyyy)) Robinson Handy and Technology Services</Copyright>
-    <Product>Almostengr Common Library</Product>
+    <Product>Almostengr MGM Insights Common Library</Product>
     <Authors>Kenny Robinson</Authors>
     <Description>Common generic classes and methods used for building MVC and Web API applications.</Description>
     <AssemblyName>Almostengr.MgmInsights.Common</AssemblyName>
     <RootNamespace>Almostengr.MgmInsights.Common</RootNamespace>
     <Version>10.$([System.DateTime]::UtcNow.ToString(yyyy.MMdd.HHmm))</Version>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/almostengr/almostengr.common.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/almostengr/Almostengr.MgmInsights.Common.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
