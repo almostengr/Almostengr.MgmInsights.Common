@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <PackageId>Almostengr.MgmInsights.Common</PackageId>
+    <Company>Robinson Handy and Technology Services LLC</Company>
+    <Copyright>Copyright © $([System.DateTime]::UtcNow.ToString(yyyy)) Robinson Handy and Technology Services</Copyright>
+    <Product>Almostengr Common Library</Product>
+    <Authors>Kenny Robinson</Authors>
+    <Description>Common generic classes and methods used for building MVC and Web API applications.</Description>
+    <AssemblyName>Almostengr.MgmInsights.Common</AssemblyName>
+    <RootNamespace>Almostengr.MgmInsights.Common</RootNamespace>
+    <Version>10.$([System.DateTime]::UtcNow.ToString(yyyy.MMdd.HHmm))</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/almostengr/almostengr.common.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Almostengr.Common" Version="10.2026.403.917" />
+  </ItemGroup>
+
+</Project>
